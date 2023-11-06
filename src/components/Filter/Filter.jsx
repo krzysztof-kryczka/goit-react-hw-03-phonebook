@@ -14,12 +14,11 @@ const Filter = ({ onFilterChange }) => {
         className={css.filter__input}
       ></input>
     </div>
-
   );
 };
 
 Filter.propTypes = {
-    onFilterChange: PropTypes.func.isRequired,
+  onFilterChange: PropTypes.func.isRequired,
 };
 
 export default Filter;
